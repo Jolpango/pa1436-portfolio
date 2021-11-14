@@ -1,23 +1,30 @@
-/* Header */
+@import 'variables';
 
-.header, .site-header {
+.header,
+.site-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
+.site-header .clock-body {
+    margin-right: 1em;
+}
+
 .header { 
-    background-color: #222222;
+    background-color: $accent-color;
     margin-bottom: 3em;
     padding-right: 3em;
-    border-bottom: 2px solid #ccc;
+    border-bottom: 2px solid $background-color;
     padding-left: 5vw;
     padding-right: 5vw;
 }
 
-/* Title */
-.logo img{
+.logo img {
     border-radius: 10px;
 }
-.title, .logo {
-    padding: 1em 1em 1em 1em;
+
+.title,
+.logo {
+    padding: 1em;
 }

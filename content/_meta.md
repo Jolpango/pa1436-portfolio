@@ -1,5 +1,5 @@
 ---
-Logo: image/me2.jpg
+# Logo: image/me2.jpg
 Tagline: My portfolio.
 Social:
     - title: Link till sidans github repo.

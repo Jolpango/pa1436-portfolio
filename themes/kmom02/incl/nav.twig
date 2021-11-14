@@ -1,5 +1,13 @@
 <div class="header" role="banner">
     <div class="site-header">
+        <div class="clock-body" style="width: 100px; height: 100px;">
+        <p class="clock-text" style="font-size: 16px;"></p>
+        <div class="clock-dot"></div>
+        <div class="clock-hours"></div>
+        <div class="clock-minutes"></div>
+        <div class="clock-seconds"></div>
+        <div class="clock-center"></div>
+        </div>
         {% if pages["_meta"].meta.logo %}
         <div class="logo">
             <a href="{{ base_url }}">
@@ -33,3 +41,4 @@
         </div>
     </div>
 </div>
+<script src="../shared/js/clock.js"></script>

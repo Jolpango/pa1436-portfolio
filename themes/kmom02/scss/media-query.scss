@@ -1,19 +1,27 @@
 @media (max-width: 767px) {
-    .title, .logo {
+    .title,
+    .logo {
         padding: 1em 1em 1em 0;
     }
+
     .title {
         min-width: 50%;
     }
-    .logo {
-        display: none;
-    }
+
     .main {
         margin-left: 5%;
         margin-right: 5%;
     }
+
     .header {
         padding-left: 0;
         padding-right: 0;
     }
+}
+
+@media (max-width: 930px) {
+    .logo {
+        display: none;
+    }
+
 }

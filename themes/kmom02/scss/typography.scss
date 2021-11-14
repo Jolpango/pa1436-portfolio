@@ -1,20 +1,31 @@
 /* Typografy */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
 * {
     font-family: 'Montserrat', sans-serif;
 }
+
 body {
     line-height: 1.5rem;
     color: #444;
 }
 
-p, td, th, li, dd {
+p,
+td,
+th,
+li,
+dd {
     overflow-wrap: break-word;
     word-wrap: break-word;
     color: $font-alternative-color;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     margin-bottom: 0.6em;
     font-weight: bold;
     font-family: 'Montserrat', sans-serif;
@@ -27,6 +38,6 @@ a {
 }
 
 .title h1,
-.title p{
+.title p {
     color: $font-color;
 }

@@ -4,6 +4,7 @@
     background-color: $background-alt-color;
     color: $accent-color;
 }
+
 .nav ul li {
     border-radius: 20px;
     border: 1px solid $trim-color;
@@ -12,8 +13,9 @@
     color: $font-color;
     transition: all 0.3s;
 }
+
 .nav ul a li {
-    padding: 0.3em 1em 0.3em 1em;
+    padding: 0.3em 1em;
 }
 
 .nav-toggle {
