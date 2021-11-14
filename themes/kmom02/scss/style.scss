@@ -1,0 +1,41 @@
+@import '../../shared/fontawesome/scss/fontawesome';
+$fa-font-path: '../../shared/fontawesome/webfonts';
+@import '../../shared/fontawesome/scss/brands';
+@import '../../shared/fontawesome/scss/solid';
+@import '../../shared/fontawesome/scss/regular';
+@import '../../node_modules/normalize.css/normalize';
+@import 'variables';
+* {
+    box-sizing: border-box;
+    border: 0 none;
+    margin: 0;
+    padding: 0;
+}
+
+ol, ul {
+    padding-left: 1.5em;
+}
+
+.hidden {
+    display: none !important;
+}
+
+html, body {
+    height: 100%;
+}
+img {
+    max-width: 100%;
+}
+
+@import 'typography';
+@import 'blockquotes';
+@import 'code';
+@import 'header';
+@import 'main-div';
+@import 'media-query';
+@import 'navbar';
+@import 'footer';
+
+body {
+    background-color: $background-color;
+}
