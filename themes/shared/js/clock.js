@@ -5,7 +5,6 @@
     "use strict";
     console.log("JavaScript ready.");
     const clockBody = document.getElementsByClassName("clock-body");
-    const clockText = document.getElementsByClassName("clock-text");
     const clockHours = document.getElementsByClassName("clock-hours");
     const clockMinutes = document.getElementsByClassName("clock-minutes");
     const clockSeconds = document.getElementsByClassName("clock-seconds");
@@ -18,13 +17,6 @@
         const currentMinutesDeg = (360 / 60 * currentMinutes - 90) % 360;
         const currentSecondsDeg = (360 / 60 * currentSeconds - 90) % 360;
 
-        for (let i = 0; i < clockText.length; i++) {
-            if (currentDate.getHours() < 12) {
-                clockText[i].innerHTML = "God förmiddag";
-            } else {
-                clockText[i].innerHTML = "God eftermiddag";
-            }
-        }
         for (let i = 0; i < clockBody.length; i++) {
             clockBody[i].setAttribute("title", currentDate.toLocaleString("en-GB"));
         }
