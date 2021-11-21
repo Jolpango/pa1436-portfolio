@@ -1,12 +1,12 @@
 ---
-Title: Kmom05
+Title: Kmom03
 Description: Snippet of the real report.
 Template: technology
 HTMLClass: kmom-box
-directory: technologies/sub
+directory: technology/sub
 ---
 
-Kursmoment 5
+Kursmoment 3
 ==========================
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean id ante sagittis, rutrum dolor eget, dignissim dolor. Nam eget lorem quis dui bibendum elementum nec et lacus. Etiam eu leo volutpat, rutrum lacus eget, dignissim eros. Donec at leo quis lectus fermentum eleifend. Nunc sodales dapibus nisi eu hendrerit. Nulla facilisi. Fusce eu mattis ex. Ut non magna eu augue sodales varius eu sed tortor. Etiam blandit ullamcorper ullamcorper. Aenean eget est vel ligula efficitur eleifend. Nulla malesuada arcu sed efficitur placerat. Phasellus tristique in elit in vulputate. Etiam vestibulum eros dui, porta laoreet nibh malesuada et. Sed facilisis sem sed urna pulvinar, id lobortis ligula euismod. Ut laoreet sapien leo, nec tristique eros tincidunt id.

@@ -3,7 +3,7 @@ Title: Projekt
 Description: Snippet of the real report.
 Template: technology
 HTMLClass: kmom-box project
-directory: technologies/sub
+directory: technology/sub
 ---
 
 Projekt
