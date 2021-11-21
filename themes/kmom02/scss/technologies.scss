@@ -1,0 +1,68 @@
+@import 'variables';
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+$border-radius-box: 10px;
+$box-button-size: 70px;
+
+.landingpage {
+    display: grid;
+    gap: 1em 1em;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.landingpage h1 {
+    grid-column: span 3;
+    justify-self: center;
+}
+
+.kmom-box {
+    background-color: $background-alt-color;
+    border-radius: $border-radius-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.kmom-box h3 {
+    width: 100%;
+    padding: 1em;
+    color: $background-alt-color;
+    background-color: $accent-color;
+    border-radius: $border-radius-box $border-radius-box 0 0;
+}
+
+.kmom-box:hover {
+    button {
+        background-color: $button-color;
+        color: $background-alt-color;
+        border-radius: 30%;
+    }
+}
+
+.kmom-box p {
+    padding: 1em;
+}
+
+.kmom-box button {
+    align-self: flex-end;
+    background-color: $button-background-color;
+    color: $button-color;
+    margin: 0.5em;
+    width: 2em;
+    height: 2em;
+    border-radius: 50%;
+    transition: all ease-in-out 0.3s;
+    box-shadow: 1px 1px 5px #222;
+}
+
+.kmom-box.project {
+    grid-column: span 3;
+}

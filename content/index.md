@@ -12,5 +12,3 @@ Mitt namn är Joel Funk Persson och jag går första året i Webbprogammering p�
 Jag kommer ursprungligen från Växjö, men har bott i karlskrona under fem års tid nu. Innan högskolan gick jag en linje som heter El och energi, data och kommunikation. Så redan där fick jag en del kunskaper inom datorer och programmering. 
 
 Älskar spel, problemlösning, teknologi och prylar.
-
-

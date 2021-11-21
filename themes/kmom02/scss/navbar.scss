@@ -1,10 +1,5 @@
 @import 'variables';
 
-.nav li:hover {
-    background-color: $background-alt-color;
-    color: $accent-color;
-}
-
 .nav ul li {
     border-radius: 20px;
     border: 1px solid $trim-color;
@@ -20,4 +15,14 @@
 
 .nav-toggle {
     color: $font-color;
+}
+
+.nav ul .active {
+    background-color: $background-alt-color;
+    color: $accent-color;
+}
+
+.nav li:hover {
+    background-color: $background-alt-color;
+    color: $accent-color;
 }

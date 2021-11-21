@@ -36,10 +36,12 @@ img {
 @import 'code';
 @import 'header';
 @import 'main-div';
-@import 'media-query';
-@import 'navbar';
 @import 'footer';
 @import 'clock';
+@import 'technologies';
+@import 'technology';
+@import 'navbar';
+@import 'media-query';
 
 body {
     background-color: $background-color;

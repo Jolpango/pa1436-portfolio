@@ -17,6 +17,20 @@
         padding-left: 0;
         padding-right: 0;
     }
+
+    .kmom-box {
+        grid-column: span 3;
+    }
+
+    .tech-aside {
+        display: none;
+    }
+
+    .tech-article {
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
 }
 
 @media (max-width: 930px) {
