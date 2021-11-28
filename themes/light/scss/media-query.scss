@@ -1,0 +1,42 @@
+@media (max-width: 767px) {
+    .title,
+    .logo {
+        padding: 1em 1em 1em 0;
+    }
+
+    .title {
+        min-width: 50%;
+    }
+
+    .header {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .kmom-box {
+        grid-column: span 3;
+    }
+
+    .tech-aside {
+        display: none;
+    }
+
+    .tech-article {
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        min-width: 0;
+    }
+
+    .footer {
+        flex-direction: column-reverse;
+    }
+
+}
+
+@media (max-width: 930px) {
+    .logo {
+        display: none;
+    }
+
+}

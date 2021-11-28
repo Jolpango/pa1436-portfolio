@@ -1,0 +1,58 @@
+body {
+    display: flex;
+    flex-direction: column;
+    // background-color: $body-background-color;
+    background: linear-gradient(90deg, $body-background-color, $body-alt-background-color);
+    background-size: 100% 100%;
+    // margin-top: $navbar-height;
+}
+
+.main {
+    margin-top: $navbar-height;
+    flex: 1 0 auto;
+}
+
+.main .text-img {
+    float: left;
+    border-radius: 10px;
+    margin: 0 0.5em;
+}
+
+.img-banner {
+    object-fit: cover;
+    border-radius: 10px;
+    margin: 0 0 1em;
+}
+
+.diagonal-box {
+    position: relative;
+    padding: 100px;
+}
+
+.diagonal-box::before {
+    position: absolute;
+    content: '';
+    transform-origin: 50% 0;
+    outline: transparent 1px solid;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    left: 0;
+    bottom: 0;
+    background-image: linear-gradient(45deg, $diagonal-color, $diagonal-alt-color);
+    transform: skewY(-11deg);
+}
+
+.diagbox-content {
+    max-width: 50em;
+    margin: 0 auto;
+    position: relative;
+}
+
+.diagbox-content * {
+    color: $font-primary-color;
+}
+
+.diagbox-content code {
+    color: $font-alternative-color;
+}

@@ -1,0 +1,40 @@
+
+.header,
+.site-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.site-header .clock-body {
+    margin-right: 1em;
+}
+
+.header { 
+    // background-color: $navbar-background-color;
+    background-image: linear-gradient(90deg, $navbar-background-color, $navbar-alt-background-color);
+    // margin-bottom: 3em;
+    // padding-bottom: 2em;
+    // padding-top: 2em;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    position: fixed;
+    width: 100%;
+    min-height: $navbar-height;
+    top: 0;
+    z-index: 9;
+}
+
+.logo img {
+    border-radius: 10px;
+}
+
+// .title,
+// .logo {
+//     padding: 1em;
+// }
+
+.title h1,
+.title p {
+    color: $navbar-title-color;
+}

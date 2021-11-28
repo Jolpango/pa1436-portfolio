@@ -1,0 +1,59 @@
+@import '../../shared/fontawesome/scss/fontawesome';
+$fa-font-path: '../../shared/fontawesome/webfonts';
+@import '../../shared/fontawesome/scss/brands';
+@import '../../shared/fontawesome/scss/solid';
+@import '../../shared/fontawesome/scss/regular';
+@import '../../node_modules/normalize.css/normalize';
+
+
+:root {
+    --cursorXpos: 50vw;
+    --cursorYpos: 50vh;
+}
+
+// :root::before {
+//     pointer-events: none;
+//     content: '';
+//     width: 0%;
+//     height: 0%;
+//     position: fixed;
+//     background: radial-gradient(circle 8rem at var(--cursorXpos) var(--cursorYpos),
+//     rgba(0,0,0,0) 0%, rgba(0,0,0,0.95) 100%);
+//     z-index: 11;
+// }
+* {
+    box-sizing: border-box;
+    border: 0 none;
+    margin: 0;
+    padding: 0;
+}
+
+ol,
+ul {
+    padding-left: 1.5em;
+}
+
+.hidden {
+    display: none !important;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+img {
+    max-width: 100%;
+}
+@import 'dark-variables';
+@import 'typography';
+@import 'blockquotes';
+@import 'header';
+@import 'main-div';
+@import 'code';
+@import 'footer';
+@import 'clock';
+@import 'technologies';
+@import 'technology';
+@import 'navbar';
+@import 'media-query';

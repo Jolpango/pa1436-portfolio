@@ -1,0 +1,83 @@
+//Colors -> American Palette(Flatuicolors.com)
+
+//Black and whites
+$dracula-orchid: #2d3436;
+$american-river: #636e72;
+$soothing-breeze: #b2bec3;
+$city-lights: #dfe6e9;
+
+//Green->Blues
+$light-greenish-blue: #55efc4;
+$faded-poster: #81ecec;
+$green-darner-tail: #74b9ff;
+$shy-moment: #a29bfe;
+
+$mint-leaf: #00b894;
+$robins-egg-blue: #00cec9;
+$electron-blue: #0984e3;
+$exodus-fruit: #6c5ce7;
+
+//Yellow->Red->Pink
+$sour-lemon: #ffeaa7;
+$first-date: #fab1a0;
+$pink-glamour: #ff7675;
+$pico-8-pink: #fd79a8;
+
+$bright-yarrow: #fdcb6e;
+$orangeville: #e17055;
+$chi-gong: #d63031;
+$prunus-avium: #e84393;
+
+//Upgraded light theme:
+
+//General
+$font-primary-color: #f5f5f5;
+$font-alternative-color: #444;
+
+$primary-background-color: #f2efe9;
+$alternative-background-color: #252627;
+$border-color: #353531;
+
+
+//Code
+$code-background-color: $city-lights;
+
+//List
+$list-dark-background: $sour-lemon;
+$list-light-background: $city-lights;
+$list-hover-color: $font-primary-color;
+
+//Body
+$body-background-color: $primary-background-color;
+$body-alt-background-color: $city-lights;
+
+//Kmom-box
+$box-background-color: $primary-background-color;
+$box-alt-background-color: $city-lights;
+$box-title-background-color: $orangeville;
+$box-title-alt-background-color: $bright-yarrow;
+$box-shadow-color: $american-river;
+
+
+//Navbar
+$navbar-background-color: $american-river;
+$navbar-alt-background-color: $dracula-orchid;
+$navbar-accent-color: $orangeville;
+$navbar-alt-accent-color: $bright-yarrow;
+$navbar-font-color: $font-primary-color;
+$navbar-title-color: $dracula-orchid;
+$navbar-height: 100px;
+
+//Diagonal-box
+$diagonal-color: $bright-yarrow;
+$diagonal-alt-color: $orangeville;
+
+//Footer
+$footer-background-color: $american-river;
+$footer-alt-background-color: $dracula-orchid;
+$footer-accent-color: $city-lights;
+
+//Button
+$button-background-color: $dracula-orchid;
+$button-accent-color: $city-lights;
+$button-hover-color: $dracula-orchid;

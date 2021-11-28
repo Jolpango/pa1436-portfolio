@@ -1,0 +1,24 @@
+
+.nav ul li {
+    border-radius: 20px;
+    border: 1px solid $navbar-accent-color;
+    margin: 0.5em;
+    font-size: 18px;
+    color: $navbar-font-color;
+    transition: background-image 0.3s;
+    // background-color: $navbar-background-color;
+}
+
+.nav ul a li {
+    padding: 0.3em 1em;
+}
+
+.nav-toggle {
+    color: $navbar-font-color;
+}
+
+.nav li:hover,
+.nav ul .active {
+    background-image: linear-gradient(45deg, $navbar-accent-color, $navbar-alt-accent-color);
+    // color: $navbar-background-color;
+}
