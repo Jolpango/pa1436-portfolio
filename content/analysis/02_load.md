@@ -54,7 +54,7 @@ Det finns en klar förlorare på både desktop och mobiler, WRC. Dom hade störs
 
 Den som enligt datan och användare klarade sig bäst var Nascar. Men inte långt ifrån var Formel1. Både har väldigt jämlika resultat, men Formel1 faller lite på sina bilder som tar längre tid.
 
-För att en sida ska enligt mig vara snabb så bör det kunna gå att använda sidan på runt 1 sekund. Det värsta som händer är när det laddas långsamt och layouten ändras för bilder börjar laddas och ta plats, vilket får hemsidan att kännas riktigt långsam. Jag tycker inte att någon av dessa sidor håller måttet. Formel1 sidan är en sida som jag rätt frekvent är inne på, och jag tycker aldrig att den känns snabb.
+För att en sida ska enligt mig vara snabb så bör det kunna gå att använda sidan på runt 1 sekund. Det värsta som händer är när det laddas långsamt och layouten ändras för bilder börjar laddas och ta plats, vilket får hemsidan att kännas riktigt långsam. Ironiskt nog så är varken WRC, Nascar eller Formel1 snabbt nog.
 
 
 Referenser
