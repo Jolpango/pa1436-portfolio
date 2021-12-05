@@ -5,6 +5,12 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @import '../../shared/fontawesome/scss/regular';
 @import '../../node_modules/normalize.css/normalize';
 
+img,
+embed,
+object,
+video {
+    max-width: 100%;
+}
 
 :root {
     --cursorXpos: 50vw;

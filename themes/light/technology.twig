@@ -4,7 +4,7 @@
     {% include 'incl/nav.twig' %}
     <div class="tech-main main" role="main">
         <ul class="tech-aside">
-            {% for page in pages(current_page.meta["directory"]) %}
+            {% for page in pages(current_page.id, offset = -1, depth = 1, depthOffset = 1) %}
                 <li>
                     <a href="{{ page.url }}">
                         {{ page.title }}

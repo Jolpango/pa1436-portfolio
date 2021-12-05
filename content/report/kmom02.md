@@ -3,7 +3,6 @@ Title: Kmom02
 Description: Snippet of the real report.
 Template: technology
 HTMLClass: kmom-box
-directory: report/sub
 ---
 
 Kursmoment 2

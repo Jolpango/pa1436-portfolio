@@ -1,0 +1,28 @@
+{% include 'incl/header.twig' %}
+<body>
+    {% include 'incl/nav.twig' %}
+
+    <div class="main" role="main">
+        <div class="gallery-container landingpage">
+        {{ content }}
+            {% for image in current_page.meta["Images"] %}
+                <a href="{{ base_url ~ image.url }}" class="kmom-box">
+                    <picture>
+                        <source media="(min-width: 1200px)" srcset={{ base_url ~ image.url ~ "?w=700" }}>
+                        <source media="(min-width: 767px)" srcset={{ base_url ~ image.url ~ "?w=400" }}>
+                        <img src={{ base_url ~ image.url ~ "?w=700" }} alt={{ image.alt }}>
+                        <!-- Större vid bred fullscreen. Mindre vid mellan. Och större när det blir en bild per kolumn /!-->
+                    </picture>
+                </a>
+            {% endfor %}
+        </div>
+        {% for video in current_page.meta["Videos"] %}
+        <div class="embed-container">
+            <iframe src={{ video.url }} frameborder="0" allowFullscreen></iframe>
+        </div>
+        {% endfor %}
+    </div>
+    {% include 'incl/footer.twig' %}
+</body>
+
+</html>
