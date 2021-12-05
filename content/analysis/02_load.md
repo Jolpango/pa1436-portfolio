@@ -29,7 +29,7 @@ Resultat
 <br>
 
 <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRu1tIi0fm6FNw--yN8HXK-8hg_rebM9cef10IZ1FUErjkiHjNyikM2HMKyJXKqILeoDcoVhK5w6Iel/pubhtml?widget=true&amp;headers=false"></iframe>
-<a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vRu1tIi0fm6FNw--yN8HXK-8hg_rebM9cef10IZ1FUErjkiHjNyikM2HMKyJXKqILeoDcoVhK5w6Iel/pubhtml"></a>
+<a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vRu1tIi0fm6FNw--yN8HXK-8hg_rebM9cef10IZ1FUErjkiHjNyikM2HMKyJXKqILeoDcoVhK5w6Iel/pubhtml">Länt till dokumentet</a>
 
 <br>
 
