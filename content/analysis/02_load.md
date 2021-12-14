@@ -11,9 +11,9 @@ Jämförelse av prestanda
 Urval
 -----------------------
 Jag har valt tre stycken motorsports sidor att analysera.
-- <a href="formula1.com">formula1.com</a>
-- <a href="nascar.com">nascar.com</a>
-- <a href="wrc.com">wrc.com</a>
+- <a href="https://www.formula1.com">formula1.com</a>
+- <a href="https://www.nascar.com">nascar.com</a>
+- <a href="https://www.wrc.com">wrc.com</a>
 
 <br>
 
@@ -23,26 +23,26 @@ För att mäta prestandan av dessa sidor kommer jag använda mig av <a href="htt
 
 Resultat
 -----------------------
-<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vREGWBuUzlZ_qxO2jWzLS2ubVtfwZGd8fP4lSmXwBP8jeJPtMFO1lD-H3pLDxMcZlnFR_MfMOUW9ZhS/pubhtml?widget=true&amp;headers=false" class="google-sheet-table"></iframe>
+<iframe title="Google sheet page speed"src="https://docs.google.com/spreadsheets/d/e/2PACX-1vREGWBuUzlZ_qxO2jWzLS2ubVtfwZGd8fP4lSmXwBP8jeJPtMFO1lD-H3pLDxMcZlnFR_MfMOUW9ZhS/pubhtml?widget=true&amp;headers=false" class="google-sheet-table"></iframe>
 <a href="https://docs.google.com/spreadsheets/d/1HVgFODDMeiUmpwJcdTMKHy_p_0ti92QbwF63SAoUDnc/edit?usp=sharing">Länk till dokumentet</a>
 
 <br>
 
-<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRu1tIi0fm6FNw--yN8HXK-8hg_rebM9cef10IZ1FUErjkiHjNyikM2HMKyJXKqILeoDcoVhK5w6Iel/pubhtml?widget=true&amp;headers=false"></iframe>
+<iframe title="Google sheet page speed" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRu1tIi0fm6FNw--yN8HXK-8hg_rebM9cef10IZ1FUErjkiHjNyikM2HMKyJXKqILeoDcoVhK5w6Iel/pubhtml?widget=true&amp;headers=false"></iframe>
 <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vRu1tIi0fm6FNw--yN8HXK-8hg_rebM9cef10IZ1FUErjkiHjNyikM2HMKyJXKqILeoDcoVhK5w6Iel/pubhtml">Länt till dokumentet</a>
 
 <br>
 
-<a href="formula1.com">formula1.com</a>
-<img src="../image/f1.png">
+<a href="https://www.formula1.com">formula1.com</a>
+<img src="../image/f1.png" alt="f1 landingpage">
 Denna sidan får mest klagomål på hur dom använder sina bilder. Pagespeed tycker att dom ska ha modernare format, använda bilder med rätt storlek, koda bilderna effektivt. Dessa klagomål får dom både på mobil och desktop.
 
-<a href="wrc.com">wrc.com</a>
-<img src="../image/wrc.png">
+<a href="https://www.wrc.com">wrc.com</a>
+<img src="../image/wrc.png" alt="wrc landingpage">
 Här får dom också mycket klagomål på sina bilder. Speciellt att dom ska använda rätt storlek och format. När jag laddade in sidan på min mobil så han den även ladda ganska mycket content innan den skickade mig till wrc.com/en för att återigen ladda in massa content. Vet inte om något gick fel till på pagespeed dock, körde anaylsen flera gånger och fick enormt stora LCP på mobil sidan. Den var inte jättesnabb på min telefon heller, men det kändes lite överdrivet.
 
-<a href="nascar.com">nascar.com</a>
-<img src="../image/nascar.png">
+<a href="https://www.nascar.com">nascar.com</a>
+<img src="../image/nascar.png" alt="nascar landingpage">
 Nascars största problem med prestanda är dock inte deras bilder. Dom verkar ju använda rätt storlek och format. Men enligt pagespeed kommer dom spara in mest på att reducera mängder oanvänd javacsript.
 
 

@@ -5,9 +5,6 @@ Social:
     - title: Link till sidans github repo
       url: https://github.com/Jolpango/pa1436-portfolio
       icon: fab fa-github
-    - title: Link till sidans github repo
-      url: https://twitter.com
-      icon: fab fa-twitter
     - title: Theme
       url: ?action=theme
       icon: fas fa-adjust

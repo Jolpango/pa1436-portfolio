@@ -8,9 +8,9 @@
         {{ content }}
             {% for page in pages(current_page.id, depth=1) %}
                 <a href="{{ page.url }}" class="{{ page.meta["HTMLClass"] }}">
-                    <h3>{{ page.title }}</h3>
+                    <h2>{{ page.title }}</h2>
                     <p>{{ page.description }}</p>
-                    <button><i class="fas fa-chevron-right"></i></button>
+                    <button aria-label="{{ page.title }}"><i class="fas fa-chevron-right"></i></button>
                 </a>
             {% endfor %}
         </div>

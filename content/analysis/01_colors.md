@@ -16,7 +16,7 @@ Urval
 Jag valde Komplett, inet och netonnet. Jag gjorde dessa valen för att dom tre företagen gör samma sak, och det ska bli intressant att se hur dom skiljer sig, speciellt nu när det är black friday och alla butikerna dekorerar sina sidor med svart.
 
 ## Komplett
-<img src="../image/komplett.png">
+<img src="../image/komplett.png" alt="komplett">
 <table style="border-spacing: 4px; border-collapse: separate;">
     <tr>
         <td style="height: 50px; width: 50px; background-color: #F7B912">
@@ -41,7 +41,7 @@ Komplett använder sig utan av ett sans serif typsnitt. Det är samma på hela s
 
 
 ## inet
-<img src="../image/inet.png">
+<img src="../image/inet.png" alt="inet">
 <table style="border-spacing: 4px; border-collapse: separate;">
     <tr>
         <td style="height: 50px; width: 50px; background-color: #D10000">
@@ -67,7 +67,7 @@ De har också använt sig utav en del svart för black friday. Men inte lika myc
 Inet har samma font på både paragrafer och titel element. Denna font är också sans serif.
 
 ## netonnet
-<img src="../image/netonnet.png">
+<img src="../image/netonnet.png" alt="netonnet">
 <table style="border-spacing: 4px; border-collapse: separate;">
     <tr>
         <td style="height: 50px; width: 50px; background-color: #0078AF">
